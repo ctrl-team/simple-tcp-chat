@@ -1,0 +1,24 @@
+{
+  "name": "ch",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "author": "Nimplex",
+  "license": "GPL-3",
+  "scripts": {
+    "start-dev": "nodemon",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "@keyv/sqlite": "^2.0.2",
+    "chalk": "^4.0.0",
+    "eval": "^0.1.4",
+    "inquirer": "^7.1.0",
+    "keyv": "^4.0.1",
+    "net": "^1.0.2",
+    "serverline": "^1.5.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
